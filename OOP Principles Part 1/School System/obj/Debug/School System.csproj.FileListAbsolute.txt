@@ -1,0 +1,6 @@
+C:\Users\Pc\Documents\Visual Studio 2013\Projects\OOP Principles Part 1\School System\bin\Debug\School System.exe.config
+C:\Users\Pc\Documents\Visual Studio 2013\Projects\OOP Principles Part 1\School System\obj\Debug\School System.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Documents\Visual Studio 2013\Projects\OOP Principles Part 1\School System\bin\Debug\School System.exe
+C:\Users\Pc\Documents\Visual Studio 2013\Projects\OOP Principles Part 1\School System\bin\Debug\School System.pdb
+C:\Users\Pc\Documents\Visual Studio 2013\Projects\OOP Principles Part 1\School System\obj\Debug\School System.exe
+C:\Users\Pc\Documents\Visual Studio 2013\Projects\OOP Principles Part 1\School System\obj\Debug\School System.pdb
