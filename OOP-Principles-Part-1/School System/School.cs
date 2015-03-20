@@ -34,7 +34,7 @@ class School
     {
         get
         {
-            return classes;
+            return new List<Class>(classes);
         }
         private set
         {
@@ -46,7 +46,7 @@ class School
     {
         get
         {
-            return teachers;
+            return new List<Teacher>(teachers);
         }
         private set
         {
@@ -58,7 +58,7 @@ class School
     {
         get
         {
-            return students;
+            return new List<Student>(students);
         }
         private set
         {
@@ -82,24 +82,37 @@ class School
     {
         this.Name = name;
         this.Type = type;
-        this.Classes = new List<Class>();
-        this.Teachers = new List<Teacher>();
-        this.Students = new List<Student>();
+        this.classes = new List<Class>();
+        this.teachers = new List<Teacher>();
+        this.students = new List<Student>();
+    }
+
+    /// <summary>
+    /// Returns a reference to the teacher at the given index.
+    /// </summary>
+    /// <param name="index"></param>
+    /// <returns></returns>
+    public Teacher this[int index]
+    {
+        get
+        {
+            return teachers[index];
+        }
     }
 
     public void AddClass(Class c)
     {
-        Classes.Add(c);
+        classes.Add(c);
     }
 
     public void AddTeacher(Teacher t)
     {
-        Teachers.Add(t);
+        teachers.Add(t);
     }
 
     public void AddStudent(Student s)
     {
-        Students.Add(s);
+        students.Add(s);
     }
 
     public void RemoveClass(string classID)
@@ -118,11 +131,11 @@ class School
     {
         if (p is Teacher)
         {
-            Teachers.Remove((Teacher)p);
+            teachers.Remove((Teacher)p);
         }
         else
         {
-            Students.Remove((Student)p);
+            students.Remove((Student)p);
         }
     }
 

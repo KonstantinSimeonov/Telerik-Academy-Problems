@@ -7,8 +7,8 @@ class Student : Person
 {
     public byte ClassNumber { get; private set; }
 
-    public Student(string name, byte classNumber)
-        :base(name)
+    public Student(string name, byte classNumber, params string[] comments)
+        :base(name, comments)
     {
         this.ClassNumber = classNumber;
     }

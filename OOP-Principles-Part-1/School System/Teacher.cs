@@ -7,7 +7,6 @@ class Teacher : Person
     // FIELDS
 
     private IList<Discipline> disciplines;
-    private IList<string> comments;
 
     // PROPERTIES
 
@@ -15,7 +14,7 @@ class Teacher : Person
     {
         get
         {
-            return disciplines;
+            return new List<Discipline>(disciplines);
         }
         private set
         {
@@ -26,21 +25,21 @@ class Teacher : Person
     {
         get
         {
-            return comments;
+            return new List<string>(comments);
         }
         private set
         {
             comments = value;
         }
     }
+    
 
     // CONSTRUCTORS
 
     public Teacher(string name, params string[] comments)
-        :base(name)
+        :base(name, comments)
     {
-        this.Comments = comments.ToList();
-        this.Disciplines = new List<Discipline>();
+        this.disciplines = new List<Discipline>();
     }
 
     // METHODS

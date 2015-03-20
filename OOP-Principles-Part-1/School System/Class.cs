@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-class Class
+class Class : ICommentable
 {
     // FIELDS
 
     private IList<Student> students;
     private IList<Teacher> teachers;
+    private IList<string> comments;
 
     // PROPERTIES
 
@@ -17,7 +18,7 @@ class Class
     {
         get
         {
-            return students;
+            return new List<Student>(students);
         }
         private set
         {
@@ -28,13 +29,25 @@ class Class
     {
         get
         {
-            return teachers;
+            return new List<Teacher>(teachers);
         }
         private set
         {
             teachers = value;
         }
     
+    }
+    public IList<string> Comments
+    {
+        get
+        {
+            return new List<string>(comments);
+        }
+        private set
+        {
+            comments = value;
+        }
+
     }
 
     // INDEXERS
@@ -54,14 +67,20 @@ class Class
 
     // CONSTRUCTORS
 
-    public Class(string identifier)
+    public Class(string identifier, params string[] comments)
     {
         this.Identifier = identifier;
-        this.Students = new List<Student>();
-        this.Teachers = new List<Teacher>();
+        this.students = new List<Student>();
+        this.teachers = new List<Teacher>();
+        this.comments = new List<string>(comments);
     }
 
     // METHODS
+
+    public void AddComment(string comment)
+    {
+        this.comments.Add(comment);
+    }
 
     public void AddTeacher(Teacher t)
     {

@@ -69,13 +69,13 @@ class Test
 
         for (int i = 0; i < fnames.Length - teachersCount; i++)
         {
-            school.AddStudent(new Student(fnames[i], (byte)i));
+            school.AddStudent(new Student(fnames[i], (byte)(i+1)));
         }
 
         for (int i = 0; i < teachersCount; i++)
         {
             school.AddTeacher(new Teacher(fnames[fnames.Length - teachersCount + i], comments[rnd.Next(0, comments.Length)]));
-            school.Teachers[i].AddDiscipline(new Discipline(disciplines[rnd.Next(0, disciplines.Length)],
+            school[i].AddDiscipline(new Discipline(disciplines[rnd.Next(0, disciplines.Length)],
                                                              rnd.Next(minLectures, maxLectures),
                                                              rnd.Next(minLectures, maxLectures)));
         }
