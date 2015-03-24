@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\BinarySearch\bin\Debug\BinarySearch.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\BinarySearch\bin\Debug\BinarySearch.exe
+C:\Users\Pc\Desktop\FirstArrayHW\BinarySearch\bin\Debug\BinarySearch.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\BinarySearch\obj\Debug\BinarySearch.exe
+C:\Users\Pc\Desktop\FirstArrayHW\BinarySearch\obj\Debug\BinarySearch.pdb

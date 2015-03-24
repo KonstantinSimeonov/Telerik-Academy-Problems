@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSum\bin\Debug\MaximalSum.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSum\bin\Debug\MaximalSum.exe
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSum\bin\Debug\MaximalSum.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSum\obj\Debug\MaximalSum.exe
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSum\obj\Debug\MaximalSum.pdb

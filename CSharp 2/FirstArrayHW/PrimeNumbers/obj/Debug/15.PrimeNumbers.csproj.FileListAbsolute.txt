@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\PrimeNumbers\bin\Debug\PrimeNumbers.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\PrimeNumbers\bin\Debug\PrimeNumbers.exe
+C:\Users\Pc\Desktop\FirstArrayHW\PrimeNumbers\bin\Debug\PrimeNumbers.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\PrimeNumbers\obj\Debug\PrimeNumbers.exe
+C:\Users\Pc\Desktop\FirstArrayHW\PrimeNumbers\obj\Debug\PrimeNumbers.pdb

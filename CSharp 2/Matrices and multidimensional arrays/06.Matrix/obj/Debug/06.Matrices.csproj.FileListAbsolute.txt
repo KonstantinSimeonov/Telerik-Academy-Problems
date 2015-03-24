@@ -1,0 +1,6 @@
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\06.Matrix\obj\Debug\06.Matrices.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\06.Matrix\bin\Debug\06.Matrix.exe.config
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\06.Matrix\bin\Debug\06.Matrix.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\06.Matrix\bin\Debug\06.Matrix.pdb
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\06.Matrix\obj\Debug\06.Matrix.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\06.Matrix\obj\Debug\06.Matrix.pdb

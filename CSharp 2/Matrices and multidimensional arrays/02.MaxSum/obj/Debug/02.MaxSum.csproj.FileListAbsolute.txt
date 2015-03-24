@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\02.MaxSum\bin\Debug\02.MaxSum.exe.config
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\02.MaxSum\bin\Debug\02.MaxSum.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\02.MaxSum\bin\Debug\02.MaxSum.pdb
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\02.MaxSum\obj\Debug\02.MaxSum.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\02.MaxSum\obj\Debug\02.MaxSum.pdb

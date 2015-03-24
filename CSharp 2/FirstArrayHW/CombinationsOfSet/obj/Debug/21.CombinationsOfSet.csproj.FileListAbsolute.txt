@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\CombinationsOfSet\bin\Debug\CombinationsOfSet.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\CombinationsOfSet\bin\Debug\CombinationsOfSet.exe
+C:\Users\Pc\Desktop\FirstArrayHW\CombinationsOfSet\bin\Debug\CombinationsOfSet.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\CombinationsOfSet\obj\Debug\CombinationsOfSet.exe
+C:\Users\Pc\Desktop\FirstArrayHW\CombinationsOfSet\obj\Debug\CombinationsOfSet.pdb

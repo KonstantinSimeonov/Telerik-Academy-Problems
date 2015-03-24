@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\04.BinarySearch\bin\Debug\04.BinarySearch.exe.config
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\04.BinarySearch\bin\Debug\04.BinarySearch.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\04.BinarySearch\bin\Debug\04.BinarySearch.pdb
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\04.BinarySearch\obj\Debug\04.BinarySearch.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\04.BinarySearch\obj\Debug\04.BinarySearch.pdb

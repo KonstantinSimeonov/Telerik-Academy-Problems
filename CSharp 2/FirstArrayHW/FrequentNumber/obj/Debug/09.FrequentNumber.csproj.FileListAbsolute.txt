@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\FrequentNumber\bin\Debug\FrequentNumber.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\FrequentNumber\bin\Debug\FrequentNumber.exe
+C:\Users\Pc\Desktop\FirstArrayHW\FrequentNumber\bin\Debug\FrequentNumber.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\FrequentNumber\obj\Debug\FrequentNumber.exe
+C:\Users\Pc\Desktop\FirstArrayHW\FrequentNumber\obj\Debug\FrequentNumber.pdb

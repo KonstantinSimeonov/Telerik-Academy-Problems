@@ -1,0 +1,6 @@
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\03.SequenceMatrix\bin\Debug\03.SequenceMatrix.exe.config
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\03.SequenceMatrix\obj\Debug\03.SequenceMatrix.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\03.SequenceMatrix\bin\Debug\03.SequenceMatrix.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\03.SequenceMatrix\bin\Debug\03.SequenceMatrix.pdb
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\03.SequenceMatrix\obj\Debug\03.SequenceMatrix.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\03.SequenceMatrix\obj\Debug\03.SequenceMatrix.pdb

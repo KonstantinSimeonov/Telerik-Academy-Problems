@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\QuickSort\bin\Debug\QuickSort.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\QuickSort\bin\Debug\QuickSort.exe
+C:\Users\Pc\Desktop\FirstArrayHW\QuickSort\bin\Debug\QuickSort.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\QuickSort\obj\Debug\QuickSort.exe
+C:\Users\Pc\Desktop\FirstArrayHW\QuickSort\obj\Debug\QuickSort.pdb

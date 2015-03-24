@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\CompareCharArrays\bin\Debug\CompareCharArrays.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\CompareCharArrays\bin\Debug\CompareCharArrays.exe
+C:\Users\Pc\Desktop\FirstArrayHW\CompareCharArrays\bin\Debug\CompareCharArrays.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\CompareCharArrays\obj\Debug\CompareCharArrays.exe
+C:\Users\Pc\Desktop\FirstArrayHW\CompareCharArrays\obj\Debug\CompareCharArrays.pdb

@@ -1,0 +1,6 @@
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\07.LargestArea\bin\Debug\07.LargestArea.exe.config
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\07.LargestArea\bin\Debug\07.LargestArea.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\07.LargestArea\bin\Debug\07.LargestArea.pdb
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\07.LargestArea\obj\Debug\07.LargestArea.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\07.LargestArea\obj\Debug\07.LargestArea.exe
+C:\Users\Pc\Desktop\HomeworkArrays\HomeworkMultidimensionalArrays\07.LargestArea\obj\Debug\07.LargestArea.pdb

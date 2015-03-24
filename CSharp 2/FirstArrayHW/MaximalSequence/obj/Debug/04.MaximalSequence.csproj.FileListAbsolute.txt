@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSequence\bin\Debug\MaximalSequence.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSequence\bin\Debug\MaximalSequence.exe
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSequence\bin\Debug\MaximalSequence.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSequence\obj\Debug\MaximalSequence.exe
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalSequence\obj\Debug\MaximalSequence.pdb

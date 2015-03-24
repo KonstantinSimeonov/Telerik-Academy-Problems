@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\IndexOfLetters\bin\Debug\IndexOfLetters.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\IndexOfLetters\bin\Debug\IndexOfLetters.exe
+C:\Users\Pc\Desktop\FirstArrayHW\IndexOfLetters\bin\Debug\IndexOfLetters.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\IndexOfLetters\obj\Debug\IndexOfLetters.exe
+C:\Users\Pc\Desktop\FirstArrayHW\IndexOfLetters\obj\Debug\IndexOfLetters.pdb

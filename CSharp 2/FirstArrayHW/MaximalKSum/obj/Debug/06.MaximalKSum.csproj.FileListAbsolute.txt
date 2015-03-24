@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalKSum\bin\Debug\MaximalKSum.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalKSum\bin\Debug\MaximalKSum.exe
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalKSum\bin\Debug\MaximalKSum.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalKSum\obj\Debug\MaximalKSum.exe
+C:\Users\Pc\Desktop\FirstArrayHW\MaximalKSum\obj\Debug\MaximalKSum.pdb

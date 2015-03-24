@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\FirstArrayHW\FindSumInArray\bin\Debug\FindSumInArray.exe.config
+C:\Users\Pc\Desktop\FirstArrayHW\FindSumInArray\bin\Debug\FindSumInArray.exe
+C:\Users\Pc\Desktop\FirstArrayHW\FindSumInArray\bin\Debug\FindSumInArray.pdb
+C:\Users\Pc\Desktop\FirstArrayHW\FindSumInArray\obj\Debug\FindSumInArray.exe
+C:\Users\Pc\Desktop\FirstArrayHW\FindSumInArray\obj\Debug\FindSumInArray.pdb
