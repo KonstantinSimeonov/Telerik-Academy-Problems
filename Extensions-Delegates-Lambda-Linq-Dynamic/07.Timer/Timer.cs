@@ -1,4 +1,4 @@
-﻿using System.Threading;
+﻿using System.Diagnostics;
 
 //Problem 7. Timer
 
@@ -25,12 +25,17 @@ class Timer
 
     // METHODS
 
-    public void Execute(uint times)
+    public void Execute(uint timeInSeconds)
     {
-        for (int i = 0; i < times; i++) // execute exactly the passes amount of times
+        var watch = new Stopwatch();
+        watch.Start();
+
+        while (watch.ElapsedMilliseconds < timeInSeconds * 1000)
         {
-            action(); // call the action
-            Thread.Sleep(IntervalSeconds * 1000); // pause
+            if (watch.ElapsedMilliseconds % 1000 == IntervalSeconds)
+                action();
         }
+
+        watch.Stop();
     }
 }

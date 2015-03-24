@@ -1,0 +1,5 @@
+C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\07.Timer\bin\Debug\07.Timer.exe.config
+C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\07.Timer\bin\Debug\07.Timer.exe
+C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\07.Timer\bin\Debug\07.Timer.pdb
+C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\07.Timer\obj\Debug\07.Timer.exe
+C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\07.Timer\obj\Debug\07.Timer.pdb
