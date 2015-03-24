@@ -1,6 +1,0 @@
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\01.StringBuilderExt\bin\Debug\01.StringBuilderExt.exe.config
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\01.StringBuilderExt\bin\Debug\01.StringBuilderExt.exe
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\01.StringBuilderExt\bin\Debug\01.StringBuilderExt.pdb
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\01.StringBuilderExt\obj\Debug\01.StringBuilderExtensions.csprojResolveAssemblyReference.cache
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\01.StringBuilderExt\obj\Debug\01.StringBuilderExt.exe
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Extensions-Delegates-Lambda-Linq-Dynamic\01.StringBuilderExt\obj\Debug\01.StringBuilderExt.pdb

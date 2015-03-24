@@ -16,7 +16,7 @@ class Test
             }
         }
 
-        return ((decimal)1)/product;
+        return ((decimal)1) / product;
     }
 
     public static decimal Error(decimal partialSum)
@@ -30,7 +30,7 @@ class Test
     {
         ulong product = 1;
 
-        for (ulong i = 1; i <= n+1; i++)
+        for (ulong i = 1; i <= n + 1; i++)
         {
             checked
             {
@@ -38,7 +38,7 @@ class Test
             }
         }
 
-        return ((decimal)1)/product;
+        return ((decimal)1) / product;
     }
 
     public static decimal FactorialError(decimal partialSum)
@@ -62,7 +62,7 @@ class Test
                 product *= 2;
             }
 
-            return (decimal)(n % 2 == 1 ? 1 : -1)/product;
+            return (decimal)(n % 2 == 1 ? 1 : -1) / product;
         }
     }
 
@@ -73,7 +73,7 @@ class Test
 
     public static void Main()
     {
-        Console.WriteLine("Sum of 1/2^n: {0:0.000}",SeriesCalc.Calculate(NextMemberPowerOfTwo, Error));
+        Console.WriteLine("Sum of 1/2^n: {0:0.000}", SeriesCalc.Calculate(NextMemberPowerOfTwo, Error));
         Console.WriteLine("Sum of 1/n!: {0:0.000}", SeriesCalc.Calculate(FactorialSeriesNextMember, FactorialError));
         Console.WriteLine("Sum of 1 + 1/(-2)^(n+1): {0:0.000}", SeriesCalc.Calculate(AlternativeSeriesNextMember, AlternativeSeriesError));
     }

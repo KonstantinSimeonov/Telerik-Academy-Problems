@@ -212,7 +212,7 @@ class Test
         //Write down a similar program that extracts the students with exactly two marks "2".
         //Use extension methods.
 
-        var dvoikari = students.Where(s => s.Marks.Count(m => m==(byte)2)==2);
+        var dvoikari = students.Where(s => s.Marks.Count(m => m == (byte)2) == 2);
 
         Console.WriteLine(string.Join("\n", dvoikari));
     }
@@ -357,7 +357,7 @@ class Test
             }
         }
 
-        
+
 
     }
 }

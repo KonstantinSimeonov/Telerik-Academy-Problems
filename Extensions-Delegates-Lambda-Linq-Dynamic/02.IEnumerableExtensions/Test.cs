@@ -12,7 +12,7 @@ class Test
 
         Console.WriteLine("Min: {0}, {1}", hardCodedNames.MinElement(), hardCodedNums.MinElement());
         Console.WriteLine("Max: {0}, {1}", hardCodedNames.MaxElement(), hardCodedNums.MaxElement());
-        Console.WriteLine("Average: {0}, {1}", hardCodedNames.AverageOf(x=>x.Length), hardCodedNums.AverageOf(x => x));
+        Console.WriteLine("Average: {0}, {1}", hardCodedNames.AverageOf(x => x.Length), hardCodedNums.AverageOf(x => x));
         Console.WriteLine("Sum: {0}, {1}", hardCodedNames.SumElements(x => x), hardCodedNums.SumElements(x => x));
 
     }
