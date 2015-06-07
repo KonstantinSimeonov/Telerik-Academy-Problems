@@ -406,7 +406,7 @@ function solve(params) {
 		niki = params[l].indexOf('<nk-template name="');
 	}
 	
-	// start parsing
+	// start rendering
 	
 	var html = params.slice(l, plen).join('\n'); // get the html
 	
@@ -461,12 +461,19 @@ function solve(params) {
 		for (var i = 0; i < rep.length; i+=1) {
 			currentModel = rep[i].match(contentreg)[0];
 			currentModel = currentModel.substring(1, currentModel.length - 1);
+			hack = 0;
 			
 			if(models[currentModel] !== undefined) {
 				if(models[currentModel] === 'true') {
+					
 					splitCmd = rep[i].split('\n    ');
 					hack+=splitCmd[0] === '' ? 1 : 0; // depending on input, split may produce an empty zero element
 					splitCmd = splitCmd.slice(1 + hack, splitCmd.length - 1).join('\n'); // get the insides of the if
+					
+					if(splitCmd === '') {
+						console.log(rep[i]);
+						console.log(rep[i].indexOf('\n    '));
+					}
 					
 					if(rep[i][0] === '\n') {
 						rep[i] = rep[i].substring(1, rep[i].length);
@@ -531,7 +538,6 @@ function solve(params) {
 	html = html.replace(/\}\}/g, '').replace(/\{\{/g, ''); // get rid of escapes, it's kidna wrong though
 	console.log(html);
 	
-};
+}
 
-solve(zeroTest);
-
+solve(test8);
