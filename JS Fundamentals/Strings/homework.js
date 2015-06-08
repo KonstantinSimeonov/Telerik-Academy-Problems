@@ -258,16 +258,16 @@ function format() {
 	var placeholders = args[0].match(placeholder);
 	
 	var len = placeholders.length;
-	
 	for (var i = 0; i < len; i+=1) {
-		args[0] = args[0].replace(placeholders[i], args[i+1]);
+		// anti quality code, sry
+		args[0] = args[0].replace(placeholders[i], args[(placeholders[i].substring(1, placeholders[i].length -1) * 1) + 1].toString());
 		
 	}
 	
 	return args[0];
 }
 
-var gosho = format('{0} e {1}', 'gosho', 'pich');
+var gosho = format('{0} e {1}{2}', 'gosho', 3, 'gg');
 console.log(gosho);
 
 /* Problem 12 */
