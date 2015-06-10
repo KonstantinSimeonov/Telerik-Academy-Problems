@@ -112,7 +112,7 @@ function solve(params) {
 		params[i] = params[i].replace(/\(|\)/g, ' | ').replace(/\s\s+/g, ' ');
 		params[i] = params[i].split(' | ');
 		params[i] = params[i].slice(1, params[i].length - 1);
-		// console.log(params[i]);
+		 console.log(params[i]);
 		var pisnaMi = evaluate(params[i]);
 		if(pisnaMi === 'Division by 0! At line:') {
 			console.log('Division by zero! At Line:' + (i + 1));
@@ -161,4 +161,4 @@ var test10 = [
 "(+ -5 -3)"
 ];
 
-solve(testy);
+solve(test);
