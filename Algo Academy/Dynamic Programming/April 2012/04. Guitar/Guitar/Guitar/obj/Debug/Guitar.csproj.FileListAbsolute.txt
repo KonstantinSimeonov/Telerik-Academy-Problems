@@ -1,0 +1,6 @@
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Guitar\Guitar\bin\Debug\Guitar.exe.config
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Guitar\Guitar\bin\Debug\Guitar.exe
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Guitar\Guitar\bin\Debug\Guitar.pdb
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Guitar\Guitar\obj\Debug\Guitar.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Guitar\Guitar\obj\Debug\Guitar.exe
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Guitar\Guitar\obj\Debug\Guitar.pdb
