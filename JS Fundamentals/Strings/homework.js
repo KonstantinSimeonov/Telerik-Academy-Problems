@@ -4,6 +4,8 @@ console.log('--------- Problem 1 ---------');
 var userString = 'atakuk uk uk otak';
 var result = '';
 
+// reverse the string by appending the last character, than the one before it, and so on till the first character
+
 for (var i = userString.length - 1; i >= 0; i-=1) {
 	result+=userString[i];
 	
@@ -14,19 +16,21 @@ console.log(result);
 /* Problem 2 */
 console.log('\n--------- Problem 2 ---------');
 
-var expr = '((a+b)*(t))+(3)';
-var expr2 = '((a+b)*(t))+(3))';
+var expr = '((a+b)*(t))+(3)'; // correct
+var expr2 = '((a+b)*(t))+(3))'; // incorrect
+
+// use a stack
 
 function validateBrackets(expression) {
 	var stack = [];
 	var len = expression.length;
 	for (var i = 0; i < len; i+=1) {
-		if(expression[i] === '(') {
+		if(expression[i] === '(') { // when you meet a opening bracket, push it into the stack
 			stack.push('(');
 		}
 		
-		if(expression[i] === ')') {
-			if(stack.length === 0) {
+		if(expression[i] === ')') { // when you meet a closing bracket, pop he last opening bracket from the stack
+			if(stack.length === 0) { // closing bracket without a preceding opening means invalid expression
 				return false;
 			}
 			
@@ -35,7 +39,7 @@ function validateBrackets(expression) {
 		
 	}
 	
-	return stack.length === 0;
+	return stack.length === 0; // if at the end there are brackets which are not closed, the expression is invalid
 }
 
 console.log(validateBrackets(expr));
@@ -47,7 +51,7 @@ console.log('\n--------- Problem 3 ---------');
 var test = "The text is as follows: We are living in an yellow submarine. We don't have anything else. inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
 
 function getSubstringOccurrences(substr, str) {
-	return str.split(substr).length - 1;
+	return str.split(substr).length - 1; // if you split by that string, you will get an array with (occurrences) + 1 elements
 }
 
 console.log(getSubstringOccurrences('in', test));
@@ -57,14 +61,14 @@ console.log('\n--------- Problem 4 ---------');
 
 function parseTag(html) {
 	
-	function toMixedCase(str) {
+	function toMixedCase(str) { // convert to mixcase
 		var result = '';
 		var words = str.split(' ');
 		var len1 = words.length, len2;
 		for (var i = 0; i < len1; i+=1) {
 			len2 = words[i].length;
-			for (var j = 0; j < len2; j+=1) {
-				result += (j & 1) === 0 ? words[i][j].toUpperCase() : words[i][j].toLowerCase();
+			for (var j = 0; j < len2; j+=1) { // convert each character in each word separately
+				result += (j & 1) === 0 ? words[i][j].toUpperCase() : words[i][j].toLowerCase(); // append
 				
 			}
 			
@@ -76,13 +80,14 @@ function parseTag(html) {
 		return words.join(' ');
 	}
 	
-	var opened = 0;
+	var opened = 0; // automata
 	var currentStart = 0;
 	var currentCase;
 	var tags = [];
-	var repTags = /<.+?>/g;
+	var repTags = /<.+?>/g; // regEx to match tags
 	var temp;
-	var whitespace = /\s\s+/g;
+	var whitespace = /\s\s+/g; // regex to match whitespaces
+	// for convinience
 	tags['u'] = 'upcase';
 	tags['l'] = 'lowcase';
 	tags['m'] = 'mixcase';
