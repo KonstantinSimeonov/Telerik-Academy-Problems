@@ -49,3 +49,4 @@ function solve() {
 		return answer;
 	};
 }
+
