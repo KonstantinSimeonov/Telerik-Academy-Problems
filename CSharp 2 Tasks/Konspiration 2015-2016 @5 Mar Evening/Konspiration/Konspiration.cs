@@ -3,155 +3,80 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-class Program
+public class Konspiration
 {
-    static string nextLine;
-    static string stat = "static";
-    static long openBrackets = 0;
-    static StringBuilder scope = new StringBuilder();
-    static StringBuilder result = new StringBuilder();
-    static int counter = 0;
+    private const string OPENING_BRACKET = "(";
+    private const string APPEND_FORMAT = "{0} -> {1}";
+    private const string STATIC = " static ";
+    private const string METHOD_SEPARATOR = ", ";
+    private const string NONE = "None";
+    private const int NOT_FOUND = -1;
 
-    static void Main()
+    public static void Run()
     {
+        var linesCountAsString = Console.ReadLine();
+        var linesCount = int.Parse(linesCountAsString);
 
-        int n = int.Parse(Console.ReadLine());
-        int cake = 0;
+        var currentMethodCalls = new List<string>();
+        string currentMethodName = null;
+        var result = new StringBuilder();
 
-        for (int i = 1; i < n; i++)
+        var inMethod = false;
+        var openBracketsCount = 0;
+
+        for (var line = 0; line < linesCount || openBracketsCount > 0; line++)
         {
+            var currentLine = Console.ReadLine();
 
-            nextLine = Console.ReadLine();
-
-
-
-            bool st = nextLine.IndexOf(stat) != -1;
-            bool first = st;
-            bool none = false;
-
-
-            while (st || openBrackets > 0)
+            if (!inMethod)
             {
-                if (nextLine.IndexOf("new") > nextLine.IndexOf("(") || nextLine.IndexOf("new") == -1)
-                    scope.Append(nextLine);
+                var indexOfKeyWordStatic = currentLine.IndexOf(STATIC);
 
-                nextLine = Console.ReadLine();
-                i++;
-
-                st = false;
-                if (nextLine.IndexOf("{") != -1)
-                    openBrackets++;
-                if (nextLine.IndexOf("}") != -1)
-                    openBrackets--;
-
-            }
-
-            int next = 0;
-
-            string sc = scope.ToString();
-            scope.Clear();
-
-
-            while (next != -1)
-            {
-                bool has = false;
-
-                if (next + 1 < sc.Length)
-                    next = sc.IndexOf("(", next + 1);
-                else
-                    break;
-
-
-                if (next == -1)
-                    break;
-                int index = next;
-
-                index--;
-                if (index >= 0)
+                if (indexOfKeyWordStatic != NOT_FOUND)
                 {
-                    while (sc[index] == ' ')
-                    {
-                        if (index > 0)
-                        {
-                            index--;
+                    currentMethodName = currentLine.GetMethodNames().First();
+                    inMethod = true;
+                }
+            }
+            else
+            {
+                openBracketsCount += currentLine.OpenBracketsCount();
 
-                        }
-                        else
-                            break;
+                if (openBracketsCount == 0)
+                {
+                    string callsToAppend = null;
+
+                    if (currentMethodCalls.Count > 0)
+                    {
+                        var joinedMethods = string.Join(METHOD_SEPARATOR, currentMethodCalls);
+
+                        callsToAppend = string.Format(APPEND_FORMAT, currentMethodCalls.Count, joinedMethods);
+                    }
+                    else
+                    {
+                        callsToAppend = NONE;
+                    }
+
+                    var formattedCalls = string.Format(APPEND_FORMAT, currentMethodName, callsToAppend);
+
+                    result.AppendLine(formattedCalls);
+                    currentMethodCalls.Clear();
+                    inMethod = false;
+
+                    continue;
+                }
+
+                var methodCalls = currentLine.GetMethodNames();
+
+                if (methodCalls.Count > 0)
+                {
+                    foreach (var methodName in methodCalls)
+                    {
+                        currentMethodCalls.Add(methodName);
                     }
                 }
-
-                int store = index;
-
-                if (index >= 0)
-                {
-                    while (char.IsLetter(sc[index]))
-                    {
-                        if (char.IsUpper(sc[index]))
-                        {
-                            if (index > 0)
-                            {
-                                if (char.IsLetter(sc[index]))
-                                {
-                                    while (char.IsLetter(sc[index]) && index > 0)
-                                        index--;
-                                }
-                            }
-                            if (store - index >= 1 && sc.Substring(index + 1, store - index) != string.Empty && sc.Substring(index + 1, store - index) != " ")
-                            {
-                                result.Append(sc.Substring(index + 1, store - index));
-
-                                has = true;
-                                none = true;
-                                break;
-                            }
-                        }
-                        index--;
-                        if (index < 0)
-                            break;
-                    }
-                }
-
-
-                if (first)
-                {
-                    result.Append(" -> ");
-                    cake = result.ToString().Length;
-                    first = false;
-                }
-                else if (has)
-                {
-                    none = false;
-                    result.Append(", ");
-                    counter++;
-                }
-            }
-
-            if (result.Length - 2 >= 1 && !none)
-            {
-                result.Remove(result.Length - 2, 2);
-                result.AppendLine();
-
-                if (counter > 0)
-                    result.Insert(cake, counter.ToString() + " -> ");
-
-                cake = 0;
-                counter = 0;
-            }
-            else if (none)
-            {
-                result.Append("None");
-                result.AppendLine();
             }
         }
-
-        cake = 0;
-
-        while (!char.IsLetter(result[cake]))
-            cake++;
-
-        result.Remove(0, cake);
-
         Console.WriteLine(result);
     }
 }

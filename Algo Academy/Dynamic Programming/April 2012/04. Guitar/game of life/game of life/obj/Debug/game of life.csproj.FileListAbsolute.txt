@@ -1,0 +1,6 @@
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\game of life\game of life\bin\Debug\game of life.exe.config
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\game of life\game of life\bin\Debug\game of life.exe
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\game of life\game of life\bin\Debug\game of life.pdb
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\game of life\game of life\obj\Debug\game of life.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\game of life\game of life\obj\Debug\game of life.exe
+C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\game of life\game of life\obj\Debug\game of life.pdb
