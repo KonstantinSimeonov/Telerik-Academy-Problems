@@ -12,9 +12,11 @@ function solve() {
 
     var _ = require('underscore');
 
-    var totalNumberOfLegs = _.chain(animals).pluck('legsCount').foldl(function (memo, legs) {
-      return memo + legs;
-    }).value();
+    var totalNumberOfLegs = _.chain(animals)
+      .pluck('legsCount')
+      .foldl(function (memo, legs) {
+        return memo + legs;
+      }).value();
 
     console.log('Total number of legs: ' + totalNumberOfLegs);
   };

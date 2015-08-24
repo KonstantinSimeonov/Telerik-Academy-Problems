@@ -30,7 +30,11 @@ function solve() {
 
         var _ = require('underscore');
 
-        var zubar = _.chain(students).each(avgMark).sortBy('avgMark').last().value();
+        var zubar = _.chain(students)
+            .each(avgMark)
+            .sortBy('avgMark')
+            .last()
+            .value();
 
         console.log(fullName(zubar) + ' has an average score of ' + zubar.avgMark);
     };
