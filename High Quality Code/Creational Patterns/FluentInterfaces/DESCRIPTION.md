@@ -14,6 +14,11 @@
 	- more code === more bugs
 	- could actually make code less intuitive
 	
++ Concrete implementations:
+	- [Kittens](./Kitten.cs)
+	- [Switch](./FluentSwitch.cs)
+	- [LINQ demo](./LinqDemo.cs)
+
 ##Examples:
 + C#'s LINQ methods
 + LINQ in general
