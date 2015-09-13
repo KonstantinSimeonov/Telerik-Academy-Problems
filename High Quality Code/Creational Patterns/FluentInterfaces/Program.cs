@@ -37,6 +37,9 @@
                 .Case(name => name == "Ivan", () => Console.WriteLine("Ivan e dvoikar"))
                 .Case(person.Length == 5, () => Console.WriteLine("Ne go znam koi e, ama imeto mu ima 5 bukvi"))
                 .Default(() => Console.WriteLine("default case"));
+
+            Console.WriteLine("\nLinq demo:");
+            LinqDemo.Run();
         }
     }
 }
