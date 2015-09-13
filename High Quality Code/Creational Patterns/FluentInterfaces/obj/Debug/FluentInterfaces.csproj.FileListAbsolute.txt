@@ -1,0 +1,1 @@
+C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\High Quality Code\Creational Patterns\FluentInterfaces\bin\Debug\FluentInterfaces.exe.config
