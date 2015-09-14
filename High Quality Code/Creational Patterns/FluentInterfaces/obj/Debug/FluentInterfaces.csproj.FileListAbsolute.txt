@@ -1,6 +1,0 @@
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\High Quality Code\Creational Patterns\FluentInterfaces\bin\Debug\FluentInterfaces.exe.config
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\High Quality Code\Creational Patterns\FluentInterfaces\bin\Debug\FluentInterfaces.exe
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\High Quality Code\Creational Patterns\FluentInterfaces\bin\Debug\FluentInterfaces.pdb
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\High Quality Code\Creational Patterns\FluentInterfaces\obj\Debug\FluentInterfaces.csprojResolveAssemblyReference.cache
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\High Quality Code\Creational Patterns\FluentInterfaces\obj\Debug\FluentInterfaces.exe
-C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\High Quality Code\Creational Patterns\FluentInterfaces\obj\Debug\FluentInterfaces.pdb

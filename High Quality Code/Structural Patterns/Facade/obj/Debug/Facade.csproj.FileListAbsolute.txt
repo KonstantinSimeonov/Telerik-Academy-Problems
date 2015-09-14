@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2013\Projects\StructuralPatterns\Facade\bin\Debug\Facade.exe.config
+c:\users\pc\documents\visual studio 2013\Projects\StructuralPatterns\Facade\bin\Debug\Facade.exe
+c:\users\pc\documents\visual studio 2013\Projects\StructuralPatterns\Facade\bin\Debug\Facade.pdb
+c:\users\pc\documents\visual studio 2013\Projects\StructuralPatterns\Facade\obj\Debug\Facade.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2013\Projects\StructuralPatterns\Facade\obj\Debug\Facade.exe
+c:\users\pc\documents\visual studio 2013\Projects\StructuralPatterns\Facade\obj\Debug\Facade.pdb
