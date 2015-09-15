@@ -14,8 +14,8 @@
             navBar.AppendChild(new HtmlElement("button").AppendChild(new TextElement("Log in or register")));
 
             container.AppendChild(navBar);
-            var p = new HtmlElement("p");
 
+            var p = new HtmlElement("p");
             var text = new TextElement("Nqkoy pravi izvrashteniya sus C#");
 
             p.AppendChild(text);

@@ -6,6 +6,9 @@
 
     public class HtmlElement : IHtmlElement
     {
+        private const string RenderFormat = "{2}<{0}>\n{1}{2}</{0}>";
+        private const int IndentSpaceCount = 3;
+
         private IList<IDomElement> children;
 
         public string Tag { get; private set; }
@@ -47,10 +50,11 @@
 
             foreach (var child in this.children)
             {
-                renderedChildren.AppendLine(child.Render(depth + 4));
+                renderedChildren.AppendLine(child.Render(depth + IndentSpaceCount));
             }
 
-            var resultFormat = string.Format("{2}<{0}>\n{1}{2}</{0}>", this.Tag, renderedChildren.ToString(), new string(' ', depth));
+            var indent = new string(' ', depth);
+            var resultFormat = string.Format(RenderFormat, this.Tag, renderedChildren.ToString(), indent);
 
             return resultFormat;
         }
