@@ -22,6 +22,10 @@
             container.AppendChild(p);
 
             Console.WriteLine(container.Render(0));
+
+            container.RemoveChild(p);
+
+            Console.WriteLine(container.Render(0));
         }
     }
 }
