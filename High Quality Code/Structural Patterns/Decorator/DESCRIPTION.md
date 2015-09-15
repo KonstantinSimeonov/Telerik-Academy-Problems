@@ -6,7 +6,7 @@
   - prevents class explosions(allows composition of decorators, instead of creating an exponential number of derived classes)
   - doesn't break the open/closed principle(allows new functionality to be added without changing existing code)
   - allows extention of existing code without recompiling the existing code(via dependency injections)
-  - 
+  - helps maintain the single responsibility principle
 + Cons:
   - raises code complexity
   - it's hard to track long chains of decorator compositions
@@ -14,3 +14,7 @@
 + Diagram:
 
 ![Decorator pattern uml diagram](./DecoratorDiagram.jpg)
+
++ Real world examples:
+  - Java's streams - StreamReader and BufferedReader, etc
+  - Nested UI elements pretty much decorate each other

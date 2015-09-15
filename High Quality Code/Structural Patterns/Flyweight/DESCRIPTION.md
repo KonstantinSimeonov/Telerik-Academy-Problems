@@ -11,3 +11,7 @@
 + Diagram:
 
 ![Flyweight pattern uml diagram](./FlyweightDiagram.gif)
+
++ Real world examples: 
+	- word processors use flyweight for character. The intrinsic state of the character is the symbol itself, while the extrinsic state is composed of font, location, color, etc
+	- flyweight can be used for emotes, because their animation/picture/text stays pretty much the same for every use, while the location changes
