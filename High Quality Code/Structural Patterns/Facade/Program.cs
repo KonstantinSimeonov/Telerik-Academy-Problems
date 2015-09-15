@@ -19,6 +19,11 @@
             pesho.Work();
             pesho.DoStuffAfterWork();
 
+            // we can also make a facade for those 4 methods and use it like that:
+            // pesho.WorkDay();
+            // or
+            // pesho.Holiday();
+
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\n\n");
 

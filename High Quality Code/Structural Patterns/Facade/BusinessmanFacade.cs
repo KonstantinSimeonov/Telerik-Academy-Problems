@@ -47,5 +47,25 @@
             this.businessman.BrushTeeth();
             this.businessman.GoToSleep();
         }
+
+        public void WorkDay()
+        {
+            this.GetReadyForWork();
+            this.GetToWorkplace();
+            this.DoStuffAfterWork();
+        }
+
+        public void Holiday()
+        {
+            this.businessman.WakeUp();
+            this.businessman.HaveBreakfast();
+            this.businessman.DrinkBeer();
+            this.businessman.Chill();
+            this.businessman.WriteCSharpCode();
+            this.businessman.DrinkBeer();
+            this.businessman.WriteCSharpCode();
+            this.businessman.Chill();
+            this.DoStuffAfterWork();
+        }
     }
 }

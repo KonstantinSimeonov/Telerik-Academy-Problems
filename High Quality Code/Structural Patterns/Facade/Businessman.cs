@@ -90,5 +90,25 @@
         {
             Console.WriteLine("*snore*");
         }
+
+        public void HaveBreakfast()
+        {
+            Console.WriteLine("omnomnom breakfast");
+        }
+
+        public void Chill()
+        {
+            Console.WriteLine(this.Name + " is chilling");
+        }
+
+        public void DrinkBeer()
+        {
+            Console.WriteLine("gulp");
+        }
+
+        public void WriteCSharpCode()
+        {
+            Console.WriteLine("code written");
+        }
     }
 }
