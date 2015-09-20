@@ -25,13 +25,28 @@
         }
 
         // implementing this two methods from IEnumerable<T> part actually allows the client to use matrices with LINQ
-
         public IEnumerator<T> GetEnumerator()
         {
             foreach (var field in this.Value)
             {
                 yield return field;
             }
+        }
+
+        public T[][] TakeColumns()
+        {
+            var result = new T[this.Value.GetLength(1)][];
+
+            for (int i = 0, columns = this.Value.GetLength(1); i < columns; i++)
+            {
+                result[i] = new T[this.Value.GetLength(0)];
+                for (int j = 0, rows = this.Value.GetLength(0); j < rows; j++)
+                {
+                    result[i][j] = this.Value[j, i];
+                }
+            }
+
+            return result;
         }
 
         IEnumerator IEnumerable.GetEnumerator()
