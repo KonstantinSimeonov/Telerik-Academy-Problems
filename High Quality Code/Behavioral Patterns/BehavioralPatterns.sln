@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{B113B86E-560D-4178-9703-22743F264C3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "..\..\..\..\Documents\Visual Studio 2013\Projects\BehavioralPatterns\TemplateMethod\TemplateMethod.csproj", "{BA2669FA-89F4-47A6-8302-3470B8B484D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B113B86E-560D-4178-9703-22743F264C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B113B86E-560D-4178-9703-22743F264C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B113B86E-560D-4178-9703-22743F264C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2669FA-89F4-47A6-8302-3470B8B484D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2669FA-89F4-47A6-8302-3470B8B484D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2669FA-89F4-47A6-8302-3470B8B484D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2669FA-89F4-47A6-8302-3470B8B484D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
