@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Create XML document students.xml, which contains structured description of students.
+For each student you should enter information for his name, sex, birth date, phone, email, course,
+specialty, faculty number and a list of taken exams (exam name, tutor, score).-->
+<?xml-stylesheet type="text/xsl" href="StudentsStyles.xsl" ?>
+<Telegwarts>
+  <students xmlns:students="urn:students">
+    <student>
+      <name>Saddy Kopper</name>
+      <sex>Male</sex>
+      <birthdate>02-02-2015</birthdate>
+      <phone>999 99 99</phone>
+      <email>saddy.kopper@tele.gwarts.uk</email>
+      <course>Math</course>
+      <specialty>Magic</specialty>
+      <facultynumber>99999</facultynumber>
+      <exams>
+        <exam>
+          <name>Math Transformations</name>
+          <tutor>
+            <name>Newton</name>
+            <enrollment>
+              <year>2015</year>
+              <endorsement>Physics/maths magician</endorsement>
+            </enrollment>
+          </tutor>
+          <score>500</score>
+        </exam>
+        <exam>
+          <name>Gradinarstvo</name>
+          <tutor>
+            <name>Aunt Penka</name>
+            <enrollment>
+              <year>2014</year>
+              <endorsement>Pro at tending the garden</endorsement>
+            </enrollment>
+          </tutor>
+          <score>500</score>
+        </exam>
+      </exams>
+    </student>
+    <student>
+      <name>Jeko Snejev</name>
+      <sex>Male</sex>
+      <birthdate>06-08-1996</birthdate>
+      <phone>955 88 82</phone>
+      <email>jeko@thewall.com</email>
+      <course>Fighting others and hitting on wildlings</course>
+      <specialty>Knowing nothing</specialty>
+      <facultynumber>69696</facultynumber>
+      <exams>
+        <exam>
+          <name>Staying alive</name>
+          <tutor>
+            <name>George R.R. Martin</name>
+            <enrollment>
+              <year>1996</year>
+              <endorsement>Proficient at killing off audiences favorite characters</endorsement>
+            </enrollment>
+          </tutor>
+          <score>0</score>
+        </exam>
+      </exams>
+    </student>
+    <student>
+      <name>Npesheva</name>
+      <sex>Female</sex>
+      <birtdate>14-03-1990</birtdate>
+      <phone>0883334333</phone>
+      <email>pesheva@gmail.com</email>
+      <course>ES6 Promises</course>
+      <specialty>Frequently asked questions(FAQ)</specialty>
+      <facultynumber>12345</facultynumber>
+      <exams>
+        <exam>
+          <name>JS apps</name>
+          <tutor>
+            <name>Domcho Minkov</name>
+            <enrollment>
+              <year>2010</year>
+              <endorsement>JS ninja</endorsement>
+            </enrollment>
+          </tutor>
+          <score>6</score>
+        </exam>
+      </exams>
+    </student>
+  </students>
+</Telegwarts>
