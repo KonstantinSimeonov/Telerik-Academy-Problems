@@ -35,7 +35,7 @@
             // extend base method behaviour
             if(this.hasDictionaryError)
             {
-                SetConsoleColor(false);
+                SetConsoleColor();
                 Console.WriteLine("Dictionary error occured, file was sent uncompressed.");
                 SetConsoleColorToDefault();
             }

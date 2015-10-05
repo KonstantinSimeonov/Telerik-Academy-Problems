@@ -1,0 +1,3 @@
+name: Gosho
+adress: Pernik
+tel: 9999999

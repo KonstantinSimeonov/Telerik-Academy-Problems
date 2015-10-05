@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="catalog" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="Year">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[1|2][0-9]{3}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Price">
+    <xs:restriction base="xs:decimal">
+      <xs:maxInclusive value="99999"/>
+      <xs:minInclusive value="0"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name="Catalog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Albums">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Album">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:choice maxOccurs="unbounded">
+                      <xs:element name="Name" type="xs:string" />
+                      <xs:element name="Artist" type="xs:string" />
+                      <xs:element name="Year" type="xs:unsignedShort" />
+                      <xs:element name="Producer" type="xs:string" />
+                      <xs:element name="Price" type="xs:decimal" />
+                      <xs:element name="Songs">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="Song">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element name="Title" type="xs:string" />
+                                  <xs:element name="Duration" type="xs:string" />
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

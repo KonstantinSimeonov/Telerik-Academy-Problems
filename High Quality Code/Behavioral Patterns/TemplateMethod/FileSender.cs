@@ -30,7 +30,7 @@
             }
             else
             {
-                SetConsoleColor(false);
+                SetConsoleColor();
                 Console.WriteLine("Domain not found!");
                 this.sendIsSuccessful = false;
                 SetConsoleColorToDefault();
@@ -59,7 +59,7 @@
 
         protected virtual void Report(string domainName)
         {
-            SetConsoleColor(this.sendIsSuccessful);
+            SetConsoleColor();
 
             Console.WriteLine("File was sent {0}successfully to {1}", this.sendIsSuccessful ? "" : "un", domainName);
             Console.WriteLine();
@@ -67,9 +67,9 @@
             SetConsoleColorToDefault();
         }
 
-        protected static void SetConsoleColor(bool state)
+        protected void SetConsoleColor()
         {
-            var color = state ? ConsoleColor.Green : ConsoleColor.Red;
+            var color = this.sendIsSuccessful ? ConsoleColor.Green : ConsoleColor.Red;
 
             Console.ForegroundColor = color;
         }

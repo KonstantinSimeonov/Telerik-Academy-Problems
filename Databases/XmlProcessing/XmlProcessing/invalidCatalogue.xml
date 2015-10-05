@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Catalog>
+  <Albums>
+    <Album>
+      <Name>
+        Mega hitove
+      </Name>
+      <Artist>
+        Djordjano
+      </Artist>
+      <Year>
+        -3434
+      </Year>
+      <Producer>
+        Djordjano
+      </Producer>
+      <Price>
+        gosho
+      </Price>
+      <Songs>
+        <Song>
+          <Title>
+            Otivame na kopon
+          </Title>
+          <Duration>
+            3.17
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Cqla nosht ft. Kristiana
+          </Title>
+          <Duration>
+            4.16
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Koleda
+          </Title>
+          <Duration>
+            Cql jivot
+          </Duration>
+        </Song>
+      </Songs>
+    </Album>
+
+    <Album>
+      <Name>Grachi garga</Name>
+      <Artist>kilata maika</Artist>
+      <Year>2014</Year>
+      <Producer>100 kila</Producer>
+      <Price>
+        20.01
+      </Price>
+      <Songs>
+        <Song>
+          <Title>
+            System
+          </Title>
+          <Duration>
+            Tochno 1 sedmica
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Piyanata toyaga
+          </Title>
+          <Duration>
+            4.22
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Slivenskiyat kashkaval
+          </Title>
+          <Duration>
+            4.02
+          </Duration>
+        </Song>
+      </Songs>
+
+    </Album>
+
+    <Album>
+      <Name>
+        Deleted Scenes From The Cutting Room Floor
+      </Name>
+      <Artist>
+        Caro Emerald
+      </Artist>
+      <Year>
+        2009
+      </Year>
+      <Producer>
+        Grandmono Production
+      </Producer>
+      <Price>
+        15.00
+      </Price>
+      <Songs>
+        <Song>
+          <Title>
+            A night like this
+          </Title>
+          <Duration>
+            3.51
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Back it up
+          </Title>
+          <Duration>
+            3.41
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            That man
+          </Title>
+          <Duration>
+            3.50
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Stuck
+          </Title>
+          <Duration>
+            3.52
+          </Duration>
+        </Song>
+      </Songs>
+
+    </Album>
+
+    <Album>
+      <Name>
+        The shocking miss Emerald
+      </Name>
+      <Artist>
+        Caro Emerald
+      </Artist>
+      <Year>
+        2014
+      </Year>
+      <Producer>
+        Grandmono Production
+      </Producer>
+      <Price>
+        35.43
+      </Price>
+      <Songs>
+        <Song>
+          <Title>
+            My 2 cents
+          </Title>
+          <Duration>
+            4.50
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Tell me how long
+          </Title>
+          <Duration>
+            2.27
+          </Duration>
+        </Song>
+        <Song>
+          <Title>
+            Excuse my french
+          </Title>
+          <Duration>
+            3.52
+          </Duration>
+        </Song>
+      </Songs>
+
+    </Album>
+    <!--<Album>
+      <Name></Name>
+      <Artist></Artist>
+      <Year></Year>
+      <Producer></Producer>
+      <Songs>
+        <Song>
+          <Title></Title>
+          <Duration></Duration>
+        </Song>
+      </Songs>
+    </Album>-->
+  </Albums>
+</Catalog>

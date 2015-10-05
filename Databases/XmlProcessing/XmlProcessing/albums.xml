@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Albums>
+  <Album>
+    <Name>
+        Mega hitove
+      </Name>
+    <Artist>
+        Djordjano
+      </Artist>
+  </Album>
+  <Album>
+    <Name>Grachi garga</Name>
+    <Artist>kilata maika</Artist>
+  </Album>
+  <Album>
+    <Name>
+        Deleted Scenes From The Cutting Room Floor
+      </Name>
+    <Artist>
+        Caro Emerald
+      </Artist>
+  </Album>
+  <Album>
+    <Name>
+        The shocking miss Emerald
+      </Name>
+    <Artist>
+        Caro Emerald
+      </Artist>
+  </Album>
+</Albums>

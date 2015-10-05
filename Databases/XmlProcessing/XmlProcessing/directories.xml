@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Directories>
+  <Directory>
+    <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XMLBasics</path>
+    <file>
+      <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XMLBasics\Students.xml</name>
+    </file>
+    <file>
+      <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XMLBasics\Students.xsd</name>
+    </file>
+    <file>
+      <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XMLBasics\StudentsStyles.xsl</name>
+    </file>
+  </Directory>
+  <Directory>
+    <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing</path>
+    <Directory>
+      <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing</path>
+      <Directory>
+        <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin</path>
+        <Directory>
+          <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin\Debug</path>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin\Debug\XmlProcessing.exe</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin\Debug\XmlProcessing.exe.config</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin\Debug\XmlProcessing.pdb</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin\Debug\XmlProcessing.vshost.exe</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin\Debug\XmlProcessing.vshost.exe.config</name>
+          </file>
+        </Directory>
+        <Directory>
+          <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\bin\Release</path>
+        </Directory>
+      </Directory>
+      <Directory>
+        <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj</path>
+        <Directory>
+          <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug</path>
+          <Directory>
+            <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\TempPE</path>
+          </Directory>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\XmlProcessing.csproj.FileListAbsolute.txt</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\XmlProcessing.csprojResolveAssemblyReference.cache</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\XmlProcessing.exe</name>
+          </file>
+          <file>
+            <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\obj\Debug\XmlProcessing.pdb</name>
+          </file>
+        </Directory>
+      </Directory>
+      <Directory>
+        <path>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\Properties</path>
+        <file>
+          <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\Properties\AssemblyInfo.cs</name>
+        </file>
+      </Directory>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\albums.xml</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\App.config</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\catalog.html</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\catalog.xml</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\catalog.xsd</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\CatalogueStyles.xslt</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\directories.xml</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\Extensions.cs</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\Gosho.txt</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\Gosho.xml</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\invalidCatalogue.xml</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\Program.cs</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\xdocDirectories.xml</name>
+      </file>
+      <file>
+        <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing\XmlProcessing.csproj</name>
+      </file>
+    </Directory>
+    <file>
+      <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing.sln</name>
+    </file>
+    <file>
+      <name>C:\Users\Pc\Desktop\Telerik Academy Homework Solutions\Databases\XmlProcessing\XmlProcessing.v12.suo</name>
+    </file>
+  </Directory>
+</Directories>
