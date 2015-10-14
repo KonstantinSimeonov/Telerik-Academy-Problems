@@ -1,6 +1,0 @@
-C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Baba\Baba\bin\Debug\Baba.exe.config
-C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Baba\Baba\bin\Debug\Baba.exe
-C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Baba\Baba\bin\Debug\Baba.pdb
-C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Baba\Baba\obj\Debug\Baba.csprojResolveAssemblyReference.cache
-C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Baba\Baba\obj\Debug\Baba.exe
-C:\Users\Pc\Desktop\Telerik-Academy-Exam-Tasks\Algo Academy\Dynamic Programming\April 2012\04. Guitar\Baba\Baba\obj\Debug\Baba.pdb
