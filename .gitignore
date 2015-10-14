@@ -17,6 +17,21 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# VS Code
+.vscode/
+
 # =========================
 # Operating System Files
 # =========================
