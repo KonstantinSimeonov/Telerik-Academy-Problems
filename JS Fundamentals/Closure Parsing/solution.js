@@ -1,15 +1,13 @@
 function solve(params) {
 
-	var funcs = [];
-
-	var len = params.length;
-	var inner, funcs = [];
-
-
+	var funcs = [], 
+	len = params.length;
 
 	function evaluate(str) {
 
-		var nested;
+		var nested,
+		sum = 0,
+		evaled;
 
 		if (str.length === 2 && typeof (str) !== typeof ('')) {
 			nested = str[1];
@@ -20,12 +18,6 @@ function solve(params) {
 		} else {
 			str = str.split(' ');
 		}
-
-
-		var sum = 0, currentModel, cmd;
-		var evaled;
-
-
 
 		switch (str[0]) {
 			case 'def':
@@ -71,8 +63,6 @@ function solve(params) {
 				sum = isNaN(str[1]) ? funcs[str[1]] : 1 * str[1];
 				for (var i = 2; i < str.length; i += 1) {
 
-
-
 					if (isNaN(str[i] * 1)) {
 						if (funcs[str[i]] === 0) {
 							return 'Division by 0! At line:';
@@ -109,18 +99,20 @@ function solve(params) {
 	}
 
 	for (var i = 0; i < len; i += 1) {
+		// replace all brackets with one string so we can split by it, then reduce all whitespaces to 1 at most
 		params[i] = params[i].replace(/\(|\)/g, ' | ').replace(/\s\s+/g, ' ');
 		params[i] = params[i].split(' | ');
+		// get rid of the first element
 		params[i] = params[i].slice(1, params[i].length - 1);
 		console.log(params[i]);
-		var pisnaMi = evaluate(params[i]);
-		if (pisnaMi === 'Division by 0! At line:') {
+		var evaluatedExpr = evaluate(params[i]);
+		if (evaluatedExpr === 'Division by 0! At line:') {
 			console.log('Division by zero! At Line:' + (i + 1));
 			break;
 		}
 
 		if (i === len - 1) {
-			console.log(pisnaMi);
+			console.log(evaluatedExpr);
 		}
 
 
