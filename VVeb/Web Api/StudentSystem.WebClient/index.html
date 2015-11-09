@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Services</title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        #root {
+            margin: 10px;
+        }
+
+        #imam-edno-malko-json {
+            margin-top: 30px;
+            height: 150px;
+            width: 500px;
+        }
+
+        #zemi-toq-json {
+            margin-top: 30px;
+        }
+
+        #request-menu {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+
+        <header id="header">
+            <p>
+                Don't forget to edit the localhost port in the button-handler.js script :)
+                Have a nice reviewing!
+            </p>
+        </header>
+
+        <form id="controller-form">
+            <input id="homeworks-controller" name="pesho" value="Homeworks" type="radio"> Homeworks<br />
+            <input id="students-controller" name="pesho" value="Students" type="radio"> Students<br />
+            <input id="courses-controller" name="pesho" value="Courses" type="radio"> Courses<br />
+            <input id="tests-controller" name="pesho" value="Tests" type="radio"> Tests
+        </form>
+        <div id="request-menu">
+            <button class="request-button btn-success btn" id="get">GET</button>
+            <button class="request-button btn-success btn" id="post">POST</button>
+            <button class="request-button btn-success btn" id="put">PUT</button>
+            <button class="request-button btn-success btn" id="del">DELETE</button>
+        </div>
+        
+        <textarea id="imam-edno-malko-json" placeholder="json goes here"></textarea>
+        <div id="zemi-toq-json">E tuka ide responsa! -_^</div>
+    </div>
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="json-requester.js"></script>
+    <script src="button-handler.js"></script>
+</body>
+</html>
