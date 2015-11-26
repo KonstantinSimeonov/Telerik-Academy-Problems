@@ -21,15 +21,18 @@ A repository with all tasks that I solved for preparation/exams/fun.
  + [Cosmetics 2015 @7 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/CSharp%20OOP%20Tasks/%407th%20April%202015-2016%20Evening/1.%20Cosmetics)
  + [Army of creatures 2015 @7 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/CSharp%20OOP%20Tasks/%407th%20April%202015-2016%20Evening/2.%20ArmyOfCreatures)
  
- ###Dynamic Programming Problems(Algo academy + various others):
+###Algo academy:
+ + **Dynamic programming**:
+  + [Tribonacci 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/01.%20Tribonacci)
+  + [Supersum 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/02.%20SuperSum)
+  + [Brackets 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/03.%20Brackets)
+  + [Guitar 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/04.%20Guitar)
+  + [Longest common subsequence](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/Longest%20Common%20Subsequence)
+ + **Graphs**:
+  + [Friends of Pesho 2012 Mar](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/March%202012/FriendsOfPesho)
+  + [Salaries 2013 Feb](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/February%202013/Salaries)
  
- + [Tribonacci 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/01.%20Tribonacci)
- + [Supersum 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/02.%20SuperSum)
- + [Brackets 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/03.%20Brackets)
- + [Guitar 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/04.%20Guitar)
- + [Longest common subsequence](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/Longest%20Common%20Subsequence)
- 
- ###JS Fundamentals Tasks:
+###JS Fundamentals Tasks:
  
  + [Cakes](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/JS%20Fundamentals/Cakes)
  + [Closure Parsing](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/JS%20Fundamentals/Closure%20Parsing)
@@ -39,6 +42,6 @@ A repository with all tasks that I solved for preparation/exams/fun.
  + [NikolangularJS](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/JS%20Fundamentals/Nikolangular%20JS)
  + [Shave parser](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/JS%20Fundamentals/Shave%20Parser)
  
- ###JS UI&DOM Tasks:
+###JS UI&DOM Tasks:
  
  + [Items control 2015 Aug](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/JS%20UI%26DOM/%40August%202015%20Noon/01.%20Items%20Controls)
