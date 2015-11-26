@@ -29,8 +29,8 @@ A repository with all tasks that I solved for preparation/exams/fun.
   + [Guitar 2012 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/April%202012/04.%20Guitar)
   + [Longest common subsequence](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/Longest%20Common%20Subsequence)
  + **Graphs**:
-  + [Friends of Pesho 2012 Mar](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/March%202012/FriendsOfPesho)
-  + [Salaries 2013 Feb](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Dynamic%20Programming/February%202013/Salaries)
+  + [Friends of Pesho 2012 Mar](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Graphs/March%202012/FriendsOfPesho)
+  + [Salaries 2013 Feb](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Graphs/February%202013/Salaries)
  
 ###JS Fundamentals Tasks:
  
