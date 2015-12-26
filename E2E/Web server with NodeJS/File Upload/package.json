@@ -1,0 +1,21 @@
+{
+  "name": "file-upload-system",
+  "version": "1.0.0",
+  "description": "Simple node server that allows file uploading.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/E2E"
+  },
+  "author": "Konstantin Simeonov",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "formidable": "^1.0.17",
+    "fs-extra": "^0.26.3",
+    "uuid": "^2.0.1"
+  }
+}
