@@ -29,6 +29,12 @@
  + [Structual design patterns](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/High%20Quality%20Code/Structural%20Patterns)
  + [Behavioral design patterns](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/High%20Quality%20Code/Behavioral%20Patterns)
 
+####Data structures and algorithms:
+ + [Complexity and algorithm analysis](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/blob/master/DSA/Algorithm%20analysis%20and%20complexity/Complexity.md)
+ + [Hashtables and dictionaries](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/DSA/HashTablesAndDictionaries)
+ + [Linear data structures](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/DSA/Linear%20data%20structures/LinearDataStructures)
+ + [Recursion](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/DSA/Recursion)
+
 ###Javascript courses:
 
 ####JS Fundamentals:
@@ -45,3 +51,11 @@
 ####JS Apps:
 
  + [Underscore.js](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/JS%20Apps/Underscore)
+ 
+###Web courses:
+
+####Web and Cloud services:
+ + [Web api intro](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/VVeb/Web%20Api)
+ 
+####E2E:
+ + [Web server with Node](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/E2E/Web%20server%20with%20NodeJS/File%20Upload)
