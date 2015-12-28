@@ -1,0 +1,16 @@
+{
+  "name": "chat-modules",
+  "version": "1.0.0",
+  "description": "NodeJS and Mongoose homework",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "author": "Konstantin Simeonov",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.4"
+  }
+}
