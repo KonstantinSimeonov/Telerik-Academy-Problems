@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellpWebForms", "HellpWebForms\HellpWebForms.csproj", "{AD192DD8-6CD4-4518-8964-95B199D6C74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDump", "EventDump\EventDump.csproj", "{4C6058AF-C111-48B0-9337-3C5D9774EB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebformApp", "WebformApp\WebformApp.csproj", "{7487EA50-35F9-4BD6-A43A-7622D18ED1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD192DD8-6CD4-4518-8964-95B199D6C74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD192DD8-6CD4-4518-8964-95B199D6C74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD192DD8-6CD4-4518-8964-95B199D6C74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD192DD8-6CD4-4518-8964-95B199D6C74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6058AF-C111-48B0-9337-3C5D9774EB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6058AF-C111-48B0-9337-3C5D9774EB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6058AF-C111-48B0-9337-3C5D9774EB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6058AF-C111-48B0-9337-3C5D9774EB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7487EA50-35F9-4BD6-A43A-7622D18ED1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7487EA50-35F9-4BD6-A43A-7622D18ED1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7487EA50-35F9-4BD6-A43A-7622D18ED1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7487EA50-35F9-4BD6-A43A-7622D18ED1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
