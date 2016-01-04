@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>File upload system</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 
 <body>
     <nav>
-        <a href="/files">Browse donwload gallery</a>
+        <a href="/files" class="btn btn-success">Browse donwload gallery</a>
     </nav>
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="upload" multiple="multiple">
+    <form style="margin-top: 20px" action="/upload" method="post" enctype="multipart/form-data">
+        <input class="btn btn-info" type="file" name="upload" multiple="multiple">
         <br>
-        <input type="submit" value="Upload File">
+        <input class="btn btn-info" type="submit" value="Upload File">
     </form>
 </body>
 

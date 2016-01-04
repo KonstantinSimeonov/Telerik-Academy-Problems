@@ -3,8 +3,11 @@ html(lang="en")
 head
     meta(charset="UTF-8")
     title File Upload
+    script(type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js')
+    script(type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
 body
-    p you can download the following files:
+    h2(class='jumbotron') Download gallery:
     each file in files
-        a(href='/files/' + file) !{file}
+        a(href='/files/' + file class='btn btn-default' style='margin-top: 5px') !{file}
         br
