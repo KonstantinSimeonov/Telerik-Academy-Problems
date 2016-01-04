@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "nodemon server/server.js"
