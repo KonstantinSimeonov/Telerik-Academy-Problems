@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    title Mobile store
+    script(type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js')
+    script(type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+body
+    nav
+        each link in links
+            a(href=link.url class='btn btn-info' style='margin-left: 5px;')
+                = 'To the ' + link.title + ' page'
+    div#root
+        div !{content}
+    footer(style='text-align: center;')
+        h3(class='footer') &copy; PeshoGoshoTosho Mobile store
