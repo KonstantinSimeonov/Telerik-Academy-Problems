@@ -1,0 +1,10 @@
+doctype html
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    title File Upload
+body
+    p you can download the following files:
+    each file in files
+        a(href='/files/' + file) !{file}
+        br
