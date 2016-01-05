@@ -1,7 +1,10 @@
-div
-    h1(class='jumbotron') Our tablets:
-    each tablet in tablets
-        li
-            p(style='font-size: 20px;')
-                = tablet.name + ' for only ' + tablet.price + '€'
-            img(src=tablet.imgUrl style="width: 30%")
+extends shared/layout
+
+block mainContent
+    div
+        h1(class='jumbotron') Our tablets:
+        each tablet in tablets
+            li
+                p(style='font-size: 20px;')
+                    = tablet.name + ' for only ' + tablet.price + '€'
+                img(src=tablet.imgUrl style="width: 30%")

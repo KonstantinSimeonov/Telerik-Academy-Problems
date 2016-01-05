@@ -60,9 +60,29 @@
         }
     ];
 
+    let baseUrl = 'http://localhost:6969/';
+
     module.exports = {
-        phones,
-        tablets,
-        wearables
-    };
+        phones: phones,
+        tablets: tablets,
+        wearables: wearables,
+        links: [
+            {
+                title: 'Home',
+                url: baseUrl + 'home'
+            },
+            {
+                title: 'Phones',
+                url: baseUrl + 'phones'
+            },
+            {
+                title: 'Tablets',
+                url: baseUrl + 'tablets'
+            },
+            {
+                title: 'Wearables',
+                url: baseUrl + 'wearables'
+            },
+        ]
+    }
 } ());
