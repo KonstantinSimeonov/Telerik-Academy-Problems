@@ -24,6 +24,9 @@ A repository with all tasks that I solved for preparation/exams/fun.
 ###DSA Tasks:
  + [Risk Wins, Risk loses @ DSA Sample exam 2013](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/DSA/2013/Risk%20wins%2C%20risk%20loses)
  + [Towns @ DSA 2014](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/DSA/2014/Towns)
+ + [Office Space @ DSA 2015](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/DSA/2015/Office)
+ + [Units of Work @ DSA 2015](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/DSA/2015/Unit%20of%20Work)
+ + [Passwords @ DSA 2015](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/DSA/2015/Passwords)
  
 ###Algo academy:
  + **Dynamic programming**:
