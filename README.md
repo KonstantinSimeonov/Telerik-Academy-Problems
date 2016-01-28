@@ -31,6 +31,8 @@ A repository with all tasks that I solved for preparation/exams/fun.
  + **Graphs**:
   + [Friends of Pesho 2012 Mar](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Graphs/March%202012/FriendsOfPesho)
   + [Salaries 2013 Feb](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Graphs/February%202013/Salaries)
+  + [Actions 2015 Nov](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Graphs/November%202015/Actions)
+  + [Garbage Collection 2015 Nov](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/Algo%20Academy/Graphs/November%202015/Garbage%20Collection)
  
 ###JS Fundamentals Tasks:
  
