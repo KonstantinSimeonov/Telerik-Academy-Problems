@@ -45,7 +45,7 @@
  
 ####JS OOP:
 
- + [IFFEs](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/JS%20OOP/IFFEs)
+ + [IIFEs](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/JS%20OOP/IFFEs)
  + [Scopes and closures](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/JS%20OOP/Scopes%20and%20Closures)
  
 ####JS Apps:
@@ -59,3 +59,6 @@
  
 ####E2E:
  + [Web server with Node](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/E2E/Web%20server%20with%20NodeJS/File%20Upload)
+ + [Chat modules with Node and MongoDB](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/E2E/Chat%20modules%20with%20Node%20and%20Mongoose)
+ + [Jade view engine](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/E2E/Jade)
+ + [Grunt task runner](https://github.com/KonstantinSimeonov/Telerik-Academy-Homework-Solutions/tree/master/E2E/Dev%20tools)
