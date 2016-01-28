@@ -20,6 +20,10 @@ A repository with all tasks that I solved for preparation/exams/fun.
  + [Infestation 2014 @5 Mar](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/CSharp%20OOP%20Tasks/%405%20March%202014%20Evening/Infestation)
  + [Cosmetics 2015 @7 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/CSharp%20OOP%20Tasks/%407th%20April%202015-2016%20Evening/1.%20Cosmetics)
  + [Army of creatures 2015 @7 Apr](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/CSharp%20OOP%20Tasks/%407th%20April%202015-2016%20Evening/2.%20ArmyOfCreatures)
+
+###DSA Tasks:
+ + [Risk Wins, Risk loses @ DSA Sample exam 2013](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/DSA/2013/Risk%20wins%2C%20risk%20loses)
+ + [Towns @ DSA 2014](https://github.com/KonstantinSimeonov/Telerik-Academy-Exam-Tasks/tree/master/DSA/2014/Towns)
  
 ###Algo academy:
  + **Dynamic programming**:
